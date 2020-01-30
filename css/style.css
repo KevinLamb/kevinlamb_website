@@ -1,11 +1,15 @@
 body {
     /* background: url(https://previews.123rf.com/images/prairatfhunta/prairatfhunta1705/prairatfhunta170500083/77755459-white-marble-texture-luxury-wallpaper-pattern-can-be-used-for-creating-a-white-background-and-surfac.jpg) no-repeat; */
     background-size:cover;
+    background: repeating-linear-gradient(0deg, rgb(41, 41, 41) 0px, rgb(41, 41, 41) 1px,transparent 1px, transparent 21px),repeating-linear-gradient(90deg, rgb(41, 41, 41) 0px, rgb(41, 41, 41) 1px,transparent 1px, transparent 21px),linear-gradient(90deg, hsl(87,0%,9%),hsl(87,0%,9%));
+    color: #fff;
 }
 
 main {
-    background-color: rgb(253, 253, 253);
+    background-color: #343a40;
+    color: #fff;
     margin: 20px;
+    padding: 10px;
 }
 
 p{
@@ -15,4 +19,8 @@ p{
 footer {
     margin-top: 40px;
     text-align: center;
+}
+
+.card {
+    margin: 20px;
 }
